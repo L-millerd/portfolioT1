@@ -1,0 +1,46 @@
+	body{
+		margin: 0;
+		padding: 0;
+		height: 100vh;
+		font-family: 'Roboto', sans-serif;
+		background-color: black;
+	}
+
+.containerAll{
+	width: 100%;
+	height: 100vh;
+
+}
+.mainContainer{ /*ALSO ROW*/
+	width: 100%;
+	height: 100vh; /*why do you have to scroll down*/
+}
+
+.left{
+   background-image: url("../images/bricks.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+  min-height: 500px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.headshot{
+  background-image: url("../images/headshot_edit.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+  min-height: 500px;
+}
+
+.right{
+	background-color:white;
+	color: black;
+	text-align: right;
+	color: blue;
+}
